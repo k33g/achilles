@@ -1,0 +1,4 @@
+node_modules/*
+public/src/gh3.next/*
+public/src/r2/*
+public/src/traceur/*

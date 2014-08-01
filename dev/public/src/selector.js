@@ -1,0 +1,1 @@
+export default (selector) => {return Array.from(document.querySelectorAll(selector));}
