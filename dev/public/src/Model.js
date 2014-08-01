@@ -1,4 +1,5 @@
 import r2 from './r2.dependency';
+
 class Model {
   constructor (fields, url) {
     this.url = url !== undefined ? url : "";
