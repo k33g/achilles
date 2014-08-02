@@ -1,0 +1,20 @@
+{
+  "name": "markdown",
+  "main": "./markdown.js",
+  "ignore": [
+    "node_modules",
+    "Gruntfile.js",
+    "*.json",
+    ".*"
+  ],
+  "homepage": "https://github.com/k33g/component-markdown-js",
+  "_release": "1deebad3a7",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "1deebad3a78b8fef478e09b29ca4122812f39ef9"
+  },
+  "_source": "git://github.com/k33g/component-markdown-js.git",
+  "_target": "master",
+  "_originalSource": "k33g/component-markdown-js"
+}

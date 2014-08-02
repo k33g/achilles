@@ -3,24 +3,64 @@
 <head lang="en">
   <meta charset="UTF-8">
   <title>Achilles</title>
-  <link rel="icon" sizes="196x196" href="../html5.png">
+  <link rel="icon" sizes="196x196" href="html5.png">
   <style>
-    body { background:#ffffff; font-size: 13px; color: #666666; font-family: Arial, helvetica, sans-serif;}
+    body { background:#ffffff; font-size: 16px; color: #666666; font-family: Arial, helvetica, sans-serif;}
     h1 { color: #000000; }
+
   </style>
+
+  <!--
+  <link rel="stylesheet" href="src/highlightjs/styles/default.css">
+  <link rel="stylesheet" href="src/highlightjs/styles/github.css">
+  -->
+
+  <!--<script src="src/markdown/markdown.min.js"></script>-->
+  <script src="src/showdown/showdown.min.js"></script>
+  <script src="src/highlightjs/highlight.pack.js"></script>
+  <script src="src/platform/platform.js"></script>
+  <script src="src/traceur/traceur.min.js"></script>
+
+  <link rel="import" href="src/app/wcomponents/ach-title.html">
+  <link rel="import" href="src/app/wcomponents/ach-content.html">
 
 </head>
 
 <body style="padding: 20px">
+  <h1>Hello</h1>
+  <h2>World!</h2>
+  <h1>Achilles</h1>
+  <h2>Great MV* Framework ;)</h2>
 
-  <script src="src/traceur/traceur.min.js"></script>
+
+  <ach-title></ach-title>
+
+  <ach-content position="xxx"></ach-content>
+
+  <ach-content position="zzz"></ach-content>
+
+
+  <ach-content source="data/000-hello.md"></ach-content>
+
+  <ach-content source="data/001-first.md"></ach-content>
+
+
   <!--
   <script>
     traceur.options.experimental = true;
   </script>
   -->
+
   <script>
+     /*
+     System.set('wcomponents/*', new Module({
+      'wcomponents/*': '../../dev/public/src/app/wcomponents/*.js'
+     }));
+     */
+
+    //System.paths['wcomponents/*'] = '../../dev/public/src/app/wcomponents/*.js'
     System.import('./src/app/main');
+    console.log(System)
   </script>
 </body>
 </html>

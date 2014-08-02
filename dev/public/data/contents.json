@@ -1,0 +1,4 @@
+[
+  {"_id":"hello", "source":"data/000-hello.md", "position":"xxx"},
+  {"_id":"first", "source":"data/001-first.md", "position":"zzz"}
+]

@@ -4,6 +4,10 @@
   "dependencies": {
     "traceur": "k33g/component-traceur#master",
     "r2": "k33g/r2#master",
-    "gh3.next": "k33g/gh3.next#master"
+    "gh3.next": "k33g/gh3.next#master",
+    "polymer": "components/polymer#master",
+    "markdown": "k33g/component-markdown-js#master",
+    "showdown": "k33g/component-showdown#master",
+    "highlightjs": "components/highlightjs#master"
   }
 }
