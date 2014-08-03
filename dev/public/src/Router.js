@@ -77,24 +77,28 @@ export default class Router {
 }
 
 /*
-router.add("/humans/{v}", (args)=>{
-  // v == args[0]
-})
+ var router = new Router()
 
-router.add("/humans", (args)=>{
+ router.add("/humans/{v}", (args)=>{
+ // v == args[0]
+ })
 
-})
+ router.add("/humans", (args)=>{
 
-router.add("/humans/firstname/{v}/lastname/{v}", (args)=>{
-  console.log("some humans", args)
-})
+ })
 
-router.add("/", (args)=>{
-  // href="#/"
-})
+ router.add("/humans/firstname/{v}/lastname/{v}", (args)=>{
+ console.log("some humans", args)
+ })
 
-router.add("", (args, hash)=>{ //all
-  console.log("others uries", args, hash)
-})
+ router.add("/", (args)=>{
+ // href="#/"
+ })
+
+ router.add("", (args, hash)=>{ //all
+ console.log("others uries", args, hash)
+ })
+
+ router.listen()
 
 */
